@@ -27,17 +27,12 @@ A full-stack web application for managing a bakery's cake catalog, orders, and b
 - Secure image uploads
 
 ---
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/393577b5-d793-4139-9ca9-95f0fc43e908" />
-
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6e0f84d1-7167-482a-aec6-6b6371d6bccb" />
-
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/69b64618-bfc3-4946-8d07-d1fab6905f68" />
-
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b99d7f22-96e4-4913-84cf-5f2f35c849b9" />
-
-<img width="420" height="333" alt="image" src="https://github.com/user-attachments/assets/1c443dae-3e5b-4fea-ab8a-e54f0ebea90a" />
-
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/122753fd-c544-450c-895c-626c39686137" />
+<img width="1366" height="642" alt="cake" src="https://github.com/user-attachments/assets/29f4364c-ca23-46da-86a6-2e58ad0f60ec" />
+<img width="1366" height="634" alt="admin dashboard" src="https://github.com/user-attachments/assets/67c308ca-1d8f-4fbc-a7a3-44ed1b5b8a28" />
+<img width="1366" height="636" alt="user login" src="https://github.com/user-attachments/assets/3b5ca01d-2d78-4fed-971c-5a22fe274d6a" />
+<img width="1366" height="629" alt="registration" src="https://github.com/user-attachments/assets/c05ea991-c9ba-488d-8b63-f07fa2542555" />
+<img width="1366" height="641" alt="cart" src="https://github.com/user-attachments/assets/d033679a-c43e-4ef5-8367-7fa471f4fe7f" />
+<img width="420" height="333" alt="bill" src="https://github.com/user-attachments/assets/e959a0b6-ecdb-4f5c-b2c7-28fe13103e23" />
 
 ## **Installation & Setup**
 
