@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<h3>All Cakes</h3>
+<div class="row">
+  {% for cake in cakes %}
+  <div class="col-md-3 mb-3">
+    <div class="card">
+      <img src="{{ url_for('static', filename='images/' + (cake['image'] or 'placeholder.png')) }}" class="card-img-top" style="height:150px; object-fit:cover;">
+      <div class="card-body">
+        <h5>{{ cake['name'] }}</h5>
+        <p>₹ {{ '%.2f'|format(cake['price']) }}</p>
+        <a class="btn btn-pink" href="{{ url_for('add_to_cart', cake_id=cake['id']) }}">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block content %}
+<h3>Add Cake</h3>
+<form method="post" enctype="multipart/form-data">
+  <div class="mb-3">
+    <label>Name</label>
+    <input name="name" class="form-control" required>
+  </div>
+  <div class="mb-3">
+    <label>Price (₹)</label>
+    <input name="price" class="form-control" required type="number" step="0.01">
+  </div>
+  <div class="mb-3">
+    <label>Image</label>
+    <input name="image" type="file" class="form-control">
+  </div>
+  <button class="btn btn-primary">Add Cake</button>
+</form>
+{% endblock %}

@@ -1,0 +1,4 @@
+.btn-pink { background: linear-gradient(90deg,#ff7ab6,#d63384); color: white; border: none; }
+.btn-pink:hover { opacity: 0.9; }
+.text-pink { color: #d63384; }
+.card { border-radius: 12px; }

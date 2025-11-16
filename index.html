@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="text-center py-5">
+  <h1 class="display-5" style="color:#d63384">Welcome to Sweet Treats Cake Shop</h1>
+  <p class="lead">Freshly baked cakes — order for any occasion.</p>
+  <a class="btn btn-lg btn-pink" href="{{ url_for('cakes_page') }}">Browse Cakes</a>
+</div>
+
+<div class="row">
+  {% for cake in cakes %}
+  <div class="col-md-4 mb-3">
+    <div class="card shadow-sm">
+      <img src="{{ url_for('static', filename='images/' + (cake['image'] or 'placeholder.png')) }}" class="card-img-top" alt="{{ cake['name'] }}" style="height:200px; object-fit:cover;">
+      <div class="card-body">
+        <h5 class="card-title">{{ cake['name'] }}</h5>
+        <p class="card-text">₹ {{ '%.2f'|format(cake['price']) }}</p>
+        <a href="{{ url_for('add_to_cart', cake_id=cake['id']) }}" class="btn btn-pink">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
